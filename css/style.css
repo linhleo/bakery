@@ -18,13 +18,28 @@ p {
   font-size: 2.2rem;
   color: #222; }
 
-header {
+.header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.2)), url(../img/header_img.jpeg);
   background-size: cover;
   background-position: center;
   height: 100vh;
   background-attachment: fixed;
   position: relative; }
+  .header__text-box {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+  .header__title {
+    white-space: nowrap; }
+    .header__title--main {
+      font-size: 8rem;
+      font-family: "Charmonman", cursive; }
+    .header__title--sub {
+      display: block;
+      font-size: 2.6rem;
+      color: white; }
 
 .logo {
   float: left;
@@ -59,23 +74,6 @@ header {
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
   padding: 0.8rem 0; }
-
-.header_text-box {
-  position: absolute;
-  top: 50%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-  text-align: center; }
-
-.heading-primary-1 {
-  font-size: 8rem;
-  font-family: "Charmonman", cursive; }
-
-.heading-primary-2,
-.heading-primary-3 {
-  display: block;
-  font-size: 3rem;
-  color: white; }
 
 .btn-animated {
   animation: moveInBottom 1s ease-out 0.75s;

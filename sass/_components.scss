@@ -1,0 +1,106 @@
+//HEADER
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.2)),
+    url(../img/header_img.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  position: relative;
+}
+//LOGO
+.logo {
+  float: left;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+.logo_img {
+  border-style: none;
+  border-radius: 50%;
+  height: 15rem;
+  width: auto;
+}
+//NAVIGATION
+.navbar {
+  float: right;
+  list-style: none;
+  margin-top: 6rem;
+  position: absolute;
+  top: 0;
+  right: 2rem;
+}
+.navbar li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+.navbar li a:link,
+.navbar li a:visited {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+  padding: 0.8rem 0;
+}
+//HEADER TEXT
+.header_text-box {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-primary-1 {
+  font-size: 8rem;
+  font-family: "Charmonman", cursive;
+}
+.heading-primary-2,
+.heading-primary-3 {
+  display: block;
+  font-size: 3rem;
+  color: white;
+}
+
+//BUTTON
+.btn-animated {
+  animation: moveInBottom 1s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 20rem;
+  font-weight: 300;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #ab2f11;
+}
+
+.btn-menu:link,
+.btn-menu:visited {
+  margin-right: 2rem;
+  border: 1px solid #e84118;
+  background-color: #e84118;
+}
+
+.btn-menu:hover,
+.btn-menu:active {
+  background-color: #ab2f11;
+}
+
+.btn-contact:link,
+.btn-contact:visited {
+  border: 1px solid #e84118;
+}

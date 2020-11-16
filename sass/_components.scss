@@ -1,6 +1,5 @@
 //HEADER
-
-header {
+.header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.2)),
     url(../img/header_img.jpeg);
   background-size: cover;
@@ -8,7 +7,31 @@ header {
   height: 100vh;
   background-attachment: fixed;
   position: relative;
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &__title {
+    white-space: nowrap;
+
+    &--main {
+      font-size: 8rem;
+      font-family: "Charmonman", cursive;
+    }
+
+    &--sub {
+      display: block;
+      font-size: 2.6rem;
+      color: white;
+    }
+  }
 }
+
 //LOGO
 .logo {
   float: left;
@@ -22,6 +45,7 @@ header {
   height: 15rem;
   width: auto;
 }
+
 //NAVIGATION
 .navbar {
   float: right;
@@ -44,25 +68,6 @@ header {
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
   padding: 0.8rem 0;
-}
-//HEADER TEXT
-.header_text-box {
-  position: absolute;
-  top: 50%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.heading-primary-1 {
-  font-size: 8rem;
-  font-family: "Charmonman", cursive;
-}
-.heading-primary-2,
-.heading-primary-3 {
-  display: block;
-  font-size: 3rem;
-  color: white;
 }
 
 //BUTTON

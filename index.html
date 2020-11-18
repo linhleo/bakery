@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -18,19 +19,20 @@
   <body>
     <header class="header">
       <nav>
-        <div class="row">
+        <div class="navigation">
           <div class="logo">
             <img src="img/Logo.png" alt="Bakery Logo" class="logo_img" />
           </div>
 
           <ul class="navbar">
             <li><a href="#menu">Menu</a></li>
-            <li><a href="#">Blog/Recipes</a></li>
+
             <li><a href="#testimonials">Testimonials</a></li>
             <li>
               <a href="#">Order online</a>
             </li>
             <li><a href="#">Store location</a></li>
+            <li><a href="#">Blog/Recipes</a></li>
           </ul>
         </div>
       </nav>
@@ -50,23 +52,241 @@
 
     <main>
       <section class="section_story">
-        <h2 class="heading-secondary">Our Story</h2>
-        <p>
-          Linh Bakery was founded in 2020 by Linh Nguyen. She has nurtured her
-          passion for baking since she was far away from her home country and
-          had to learn how to bake some Asian special cakes for herself. After
-          being awarded a Marketing Bachelor degree from The University of
-          Wollongong in 2019, she decided to leave her academic career behind
-          and started doing something that she was really into. After hundreds
-          of failures in her home kitchen, Linh has eventually come up with many
-          creative delicious baking recipes which satisfy people from different
-          cultures: Aussies, Asian, European,...and is proud to open her very
-          first bakery in Australia. Besides Western cakes, she also introduces
-          many special Asian cakes to bring Asian cuisine beyond just savoury
-          meals. Whether you are a foreigner wanting to try Asian baking style,
-          or an Asian missing your Mom's cakes, you are more than welcome here.
-          Our cakes are baked with lots of love, pride and caring.
-        </p>
+        <h2 class="heading_secondary margin-top-big margin-bottom-big">
+          Our Story
+        </h2>
+
+        <div class="section_story-box">
+          <img
+            src="img/story_img1.jpg"
+            alt="baking cakes"
+            class="section_story-box_img"
+          />
+
+          <div class="section_story-box_text">
+            <h3 class="heading_tertiary margin-bottom-big">How we started</h3>
+
+            <p>
+              Linh's Bakery was founded in 2020 by Linh Nguyen. She has nurtured
+              her passion for baking since she was far away from her home
+              country and had to learn how to bake some Asian cakes for herself.
+              After being awarded a Marketing Bachelor degree from The
+              University of Wollongong in 2019, she decided to leave her
+              academic career behind and started doing something that she was
+              really into. After hundreds of failures in her home kitchen, Linh
+              has eventually come up with many creative delicious baking recipes
+              which satisfy people from different cultures: Aussies, Asian,
+              European,...and is proud to open her very first bakery in
+              Australia. Besides Western cakes, she also introduces many special
+              Asian cakes to bring Asian cuisine beyond just savoury meals.
+              Whether you are a foreigner wanting to try Asian baking style, or
+              an Asian missing your Mom's cakes, you are more than welcome here.
+              Our cakes are baked with lots of love, pride and caring.
+            </p>
+          </div>
+        </div>
+
+        <div class="section_story-box-reverse">
+          <img
+            src="img/story_img2.jpg"
+            alt="chocolate cupcakes"
+            class="section_story-box-reverse_img"
+          />
+
+          <div class="section_story-box-reverse_text">
+            <h3 class="heading_tertiary margin-top-big margin-bottom-big">
+              What we make
+            </h3>
+
+            <p>
+              We offer a wide range of cakes, from very wide-known ones such as
+              Cheesecakes, Cupcakes, Egg Tarts,...to special Asian style cakes
+              such as Castella, Sponge Cake with Salted Egg sauce, Taiwanese
+              Pineapple Cake,... We also have special deep fried glutinous rice
+              ball cakes (with red been or coconut mung bean filling) on every
+              Thursday, Saturday and Sunday. Please have a look at our menu to
+              see what we are offering or contact us if you have any enquiries
+              on product availabilty. We also offer to make special cakes for
+              special occasions such as wedding, birthday,...which are tailored
+              to your taste and preference.
+            </p>
+          </div>
+        </div>
+
+        <div class="section_story-box">
+          <img
+            src="img/story_img3.jpg"
+            alt="baking cakes"
+            class="section_story-box_img"
+          />
+
+          <div class="section_story-box_text">
+            <h3 class="heading_tertiary margin-bottom-big">
+              Where our ingredients are from
+            </h3>
+
+            <p>
+              At Linh's Bakery, our number 1 priority is food safety. Our
+              ingredients are fresh and chosen very carefully by Linh herself to
+              guarantee the high quality of our cakes. Most of our ingredients
+              (egg, flour, milk, fruits,...) are bought from the farms in
+              Illawarra region as we want to support the local farmers. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Iure voluptate
+              modi sunt consectetur pariatur assumenda, facilis mollitia sint
+              ducimus vero, quaerat ratione hic praesentium voluptates repellat
+              exercitationem? Dolor, magnam suscipit?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section_products">
+        <h2 class="heading_secondary">Our best sellers</h2>
+        <div class="section_products-gallery">
+          <img
+            src="img/gal_img1.jpg"
+            alt="Deep fried rice balls"
+            class="section_products-img section_products-img-1"
+          />
+          <img
+            src="img/gal_img2.jpg"
+            alt=""
+            class="section_products-img section_products-img-2"
+          />
+          <img
+            src="img/gal_img3.jpg"
+            alt=""
+            class="section_products-img section_products-img-3"
+          />
+          <img
+            src="img/gal_img4.jpg"
+            alt=""
+            class="section_products-img section_products-img-4"
+          />
+          <img
+            src="img/gal_img5.jpg"
+            alt=""
+            class="section_products-img section_products-img-5"
+          />
+          <img
+            src="img/gal_img6.jpg"
+            alt=""
+            class="section_products-img section_products-img-6"
+          />
+          <img
+            src="img/gal_img7.jpg"
+            alt=""
+            class="section_products-img section_products-img-7"
+          />
+          <img
+            src="img/gal_img8.jpg"
+            alt=""
+            class="section_products-img section_products-img-8"
+          />
+        </div>
+      </section>
+
+      <section class="section_testimonials">
+        <h2 class="heading_secondary">TESTIMONIALS</h2>
+        <p class="heading_secondary-sub">See what people say about our cakes</p>
+
+        <div class="section_testimonials-content">
+          <div class="section_testimonials-box section_testimonials-box_1">
+            <img
+              src="img/testimonial_img1.jpg"
+              alt=""
+              class="section_testimonials-box_img"
+            />
+            <p class="section_testimonials-box_text">
+              "They have the best cakes in town. I really love their burnt
+              cheesecake which is creamy, smooth and not too sweet." -
+              <span class="section_testimonials-box_text_name"
+                >Natasha K. (Thirroul)</span
+              >
+            </p>
+          </div>
+          <div class="section_testimonials-box section_testimonials-box_2">
+            <img
+              src="img/testimonial_img2.jpg"
+              alt=""
+              class="section_testimonials-box_img"
+            />
+            <p class="section_testimonials-box_text">
+              "Trying their deep fried balls on their grand opening day and
+              since then it has become a daily snack treat for my family. I
+              really can't help eating it. A perfect blend between sweet filling
+              and crispy crust." -
+              <span class="section_testimonials-box_text_name"
+                >Robert J. (Wollongong)</span
+              >
+            </p>
+          </div>
+
+          <div class="section_testimonials-box section_testimonials-box_3">
+            <img
+              src="img/testimonial_img3.jpg"
+              alt=""
+              class="section_testimonials-box_img"
+            />
+            <p class="section_testimonials-box_text">
+              " Quisquam ex possimus deserunt quos necessitatibus repellendus
+              aperiam placeat architecto aliquam, tempora nemo perferendis nihil
+              ullam. Id perferendis aperiam ullam veritatis corrupti." -
+              <span class="section_testimonials-box_text_name"
+                >Helen H. (Corrimal)</span
+              >
+            </p>
+          </div>
+
+          <div class="section_testimonials-box section_testimonials-box_4">
+            <img
+              src="img/testimonial_img4.jpg"
+              alt=""
+              class="section_testimonials-box_img"
+            />
+            <p class="section_testimonials-box_text">
+              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum
+              et quasi eveniet ratione aliquam distinctio doloremque harum quae
+              iure praesentium impedit aliso miteo gandhkso." -
+              <span class="section_testimonials-box_text_name"
+                >Hye Sun G. (Coniston)</span
+              >
+            </p>
+          </div>
+
+          <div class="section_testimonials-box section_testimonials-box_5">
+            <img
+              src="img/testimonial_img5.jpg"
+              alt=""
+              class="section_testimonials-box_img"
+            />
+            <p class="section_testimonials-box_text">
+              " Recusandae sequi accusamus necessitatibus? Enim provident
+              tempore eius sunt, dolor neque rerum repellendus. Corporis numquam
+              deleniti laborum dolorem mollitia repudiandae doloribus possimus?"
+              -
+              <span class="section_testimonials-box_text_name"
+                >Lisa G. (Figtree)</span
+              >
+            </p>
+          </div>
+
+          <div class="section_testimonials-box section_testimonials-box_6">
+            <img
+              src="img/testimonial_img6.jpg"
+              alt=""
+              class="section_testimonials-box_img"
+            />
+            <p class="section_testimonials-box_text">
+              "Iure ut consequuntur necessitatibus saepe ratione laborum quaerat
+              nobis enim culpa debitis praesentium architecto totam rerum
+              quisquam aspernatur nam, aliquid nostrum quod?" -
+              <span class="section_testimonials-box_text_name"
+                >Michael F. (Towradgi)</span
+              >
+            </p>
+          </div>
+        </div>
       </section>
     </main>
   </body>

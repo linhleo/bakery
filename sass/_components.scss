@@ -185,8 +185,8 @@
     transition: transform 0.2s, opacity 0.5s ease-out;
     opacity: 0.8;
 
-    :hover,
-    :active {
+    &:hover,
+    &:active {
       opacity: 1;
       transform: scale(1.1);
     }

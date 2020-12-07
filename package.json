@@ -1,21 +1,29 @@
 {
-  "name": "create-sass-basic",
+  "name": "bakery",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple compile and build sass.",
   "main": "index.js",
+  "browserslist": [
+    "last 3 chrome versions",
+    "last 3 firefox versions"
+  ],
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css -w",
-    "devserver": "live-server",
-    "start": "npm-run-all --parallel devserver watch:sass",
-    "build": "node-sass sass/main.scss css/style.css"
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merq312/bakery.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^5.0.0",
-    "npm-run-all": "^4.1.5"
+  "bugs": {
+    "url": "https://github.com/merq312/bakery/issues"
   },
-  "dependencies": {
-    "live-server": "^1.2.1"
+  "homepage": "https://github.com/merq312/bakery#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.30.0"
   }
 }
